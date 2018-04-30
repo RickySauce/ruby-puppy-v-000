@@ -12,12 +12,13 @@ class Dog
   def self.all
     @@all.each do |dogs|
       puts "#{@name}"
-      
+
     end
   end
 
   def self.clear_all
     @@all.clear
   end
-binding.pry
+
 end
+binding.pry
